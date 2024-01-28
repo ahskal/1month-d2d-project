@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Monster1.h">
+      <Filter>Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster2.h">
+      <Filter>Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterManager.h">
+      <Filter>Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeMonster.h">
+      <Filter>Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressBar.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene1.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene2.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerUI.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageUI.h" />
+    <ClInclude Include="DamageDisplayManager.h" />
+    <ClInclude Include="DamageText.h" />
+    <ClInclude Include="Build.h">
+      <Filter>Build</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildManager.h">
+      <Filter>Build</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackTower.h">
+      <Filter>Build\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="DefenceTower.h">
+      <Filter>Build\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="RepairTower.h">
+      <Filter>Build\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene3.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene4.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Monster1.cpp">
+      <Filter>Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster2.cpp">
+      <Filter>Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterManager.cpp">
+      <Filter>Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressBar.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene1.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene2.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerUI.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageUI.cpp" />
+    <ClCompile Include="DamageDisplayManager.cpp" />
+    <ClCompile Include="DamageText.cpp" />
+    <ClCompile Include="BuildManager.cpp">
+      <Filter>Build</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackTower.cpp">
+      <Filter>Build\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="DefenceTower.cpp">
+      <Filter>Build\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="RepairTower.cpp">
+      <Filter>Build\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene3.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene4.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Monster">
+      <UniqueIdentifier>{b42c4140-2195-4bae-ad5a-7621409b1be6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{71ec90eb-f52d-49b5-ad79-ad93a4696dde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{ad913994-61ee-4a98-99cd-08c3f8752028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{89892b38-96cf-4990-a83c-c10588168fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Build">
+      <UniqueIdentifier>{29677f79-969b-4d67-ab0e-bffba778fb30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Build\Tower">
+      <UniqueIdentifier>{6732939f-e375-4a53-aaad-d7775ab9e75c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
